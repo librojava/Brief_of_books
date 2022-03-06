@@ -1,27 +1,18 @@
-header{
-  .header-logo
+header
+ height: 200px
+background: #ccc
+.logo
   +size(50px)
-  float: left
-  margin: 30px 0 0 30px
-}
-@media only screen and (max-width: 640px) and (min-width: 0px)
-  {
-    .articles{
-      width: 320px;
-    }
-    .article-node{
-      width: 200px;
-      height: 200px;
-    }
-}
-        
-.article-node{
-  backgroun-color: white;
-  margin: 10px;
-  display: block;
-  max-width: 300px;
-  max-height: 300px;
-}
-.header-logo-container{
-  width: 100%;
-}
+  background: #999
+
+nav
+
+  a
+    display: inline-block
+    margin-left: 70px
+    color: rgba(0.7)
+
+    font:
+        size: 14px
+        wight: 700
+    text-transform: uppercase

@@ -28,3 +28,11 @@ nav
     margin-bottom: 20px
     clear: both
     padding-top: 100px
+
+  .description
+    @extend %small-bold
+    text-align: center
+    letter-spacing: 0.05em
+    color: white
+    line-height: 1
+

@@ -11,7 +11,6 @@ h1 {
   padding-top: 200px;
 }
 logo {
-  image: url("img/logo-blog.png");
   +size(50px);
   background: #999;
 }
